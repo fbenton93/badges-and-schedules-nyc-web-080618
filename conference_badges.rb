@@ -3,10 +3,10 @@ def badge_maker(speaker)
 end
   
 def batch_badge_creator(speakers)
-  new_array = []
+  badges = []
   speakers.each do |speaker|
-    new_array << badge_maker(speaker)
+    badges << badge_maker(speaker)
   end
-  new_array
+  badges
 end
   
